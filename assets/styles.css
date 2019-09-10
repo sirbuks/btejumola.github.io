@@ -2,10 +2,8 @@ body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
   background-image: url('/images/airWaterShow.jpg') ;
-  max-width: 100%;
-  height: auto;
+  background-size: auto;
   opacity: 0.8;
   filter: grayscale(80%)
-  
   
 }
