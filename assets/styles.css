@@ -10,15 +10,28 @@ h1 {
 .bgimg {
   background-image: url('/images/airWaterShow.jpg') ;
   min-height: 100%;
-  background-position: center;
+  background-position: relative;
   background-size: cover;
-  opacity: 1;
+  filter: grayscale(0%);
+  
 }
 
 div.w3-display-middle{
   background-color: #ffffff;
-  opacity: 0.6;
+  opacity: 0.7;
   width: 100%;
   max-height: 400px;
-  margin: 20px; 
+  margin: 0px; 
+}
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+  
+}
+div.icons {
+  overflow: hidden;
+  
+  
+
 }
