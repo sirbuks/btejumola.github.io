@@ -31,7 +31,12 @@ div.w3-display-middle{
 }
 div.icons {
   overflow: hidden;
-  
-  
+}
+div.w3-center{
+  text-shadow: 1px 1px black;
+  letter-spacing: 1px
+ 
 
 }
+  
+  
